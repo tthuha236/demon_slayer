@@ -12,7 +12,7 @@ class CharacterDetail extends React.Component {
                 <div className="character__image">
                     <h3 className="character__title">{this.props.character.name}</h3>
                     <figure className="character__photo">
-                        <img src={this.props.character.img_src}/>
+                        <img src={this.props.character.img_src} alt={this.props.character.name}/>
                     </figure>
                 </div>
                 <div className="character__description">

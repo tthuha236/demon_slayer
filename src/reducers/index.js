@@ -1,5 +1,4 @@
 import { combineReducers } from 'redux';
-import { selectCharacter } from '../actions';
 
 const charactersReducer = () => {
     return [

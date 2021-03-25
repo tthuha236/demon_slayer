@@ -15,7 +15,7 @@ class CharacterList extends React.Component {
                 onClick={() => this.props.selectCharacter(character)}>
                     <figure 
                     className={`character__img ${this.props.selectedCharacter && character.id===this.props.selectedCharacter.id? "red-border": ""}`}>
-                         <img src={character.ava_src} />
+                         <img src={character.ava_src} alt={character.name}/>
                     </figure>
                     <div className="character__name">{character.name}</div>
                 </div>

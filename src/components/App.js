@@ -3,7 +3,7 @@ import CharacterList from './CharacterList';
 import CharacterDetail from './CharacterDetail';
 import Header from './Header';
 import './App.css';
-import { BrowserRouter, Route, Link} from 'react-router-dom';
+import { BrowserRouter, Route} from 'react-router-dom';
 
 const pageOne = () => {
     return (

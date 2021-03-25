@@ -1,0 +1,25 @@
+// SCREEN SIZE
+$bp-large: 62.5em;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+// .content {
+//     display: grid;
+//     grid-template-columns: 1fr 2fr;
+//     grid-column-gap: 5rem;
+// }
+

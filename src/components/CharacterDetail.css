@@ -1,0 +1,42 @@
+.character__detail {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: center;
+    justify-items: center;
+    margin-left: 6rem;
+
+    /* @media only screen and (max-width: $bp-large){
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center; 
+        background-color: brown;
+    } */
+}
+.character__title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.character__photo {
+    height: 60vh;
+    text-align: center;
+}
+
+.character__photo img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.character__description {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.character__description span {
+    margin-right: 1rem;
+    color: black;
+}

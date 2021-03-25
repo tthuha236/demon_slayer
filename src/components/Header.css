@@ -1,0 +1,56 @@
+.header {
+    height: 20vh;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+}
+
+.logo {
+  height: 60%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo h1 {
+    margin-right: auto;
+}
+
+
+.logo_img {
+    height: 100%;
+}
+
+
+.nav__list {
+    list-style: none;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, max-content));
+    grid-column-gap: 2rem;
+    text-align: center;
+    border-bottom: 3px solid rgba(0, 0,0, 0.15); 
+}
+
+
+.nav__link:link, .nav__link:visited  {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #484a4d;
+    padding: 1rem 1.5rem;
+    border: 3px solid rgba(0, 0,0, 0.15);
+    border-bottom: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* border-bottom: 3px solid rgba(0, 0,0, 0.15);  */
+
+}
+
+.nav__link:hover {
+    background-color: #484a4d;
+    color: white;
+}
+

@@ -37,7 +37,7 @@ const App = () => {
        return  (
         <div>
             <BrowserRouter>
-                <Route path="/" component={Header}></Route>
+                <Header />
                 <Route path="/demon-slayer" component={pageOne}></Route>
                 <Route path="/hashira" component={pageTwo}></Route>
                 <Route path="/demon" component={pageThree}></Route>
